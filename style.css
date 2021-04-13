@@ -1,0 +1,93 @@
+
+body{
+   text-align: center;
+}
+.me{
+    display: flex;
+    justify-content: space-between;
+}
+.header{
+    background-image: url("images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 1500px 200px;
+    padding: 30px;
+}
+
+img{
+    
+    background-color: rgb(255, 196, 0);
+   padding: 20px;
+    border-radius: 20%;
+}
+.grid{
+    display: flex;
+   flex-wrap: wrap;
+   
+   justify-content: space-between;
+
+}
+.item{
+    
+    justify-content: space-evenly;
+    margin: 100px;
+}
+.camel{
+    background-color: turquoise;
+    padding: 0px;
+    border-radius:  20%;
+}
+.chameleon{
+  background-color:darkmagenta;
+  padding: 0px;
+  border-radius:  20%; 
+}
+.cicadas{
+    background-color: pink;  
+    padding: 20px;
+    border-radius:  20%;
+  }
+  .panda{
+    background-color: violet; 
+    padding: 0px;
+    border-radius:  20%;
+
+  }
+  .pigeon{
+    background-color: indianred;
+    padding: 0px;
+    border-radius:  20%;
+  }
+  .bear{
+      background-color: mediumslateblue;
+      padding: 20px;
+    border-radius:  20%;
+  }
+  body{
+    background-color: orangered;
+    background-image: url(images/bg3.jpg);
+    background-repeat: repeat;
+    background-size:  100% auto;
+
+}
+.item h3{
+ 
+  opacity: 0;
+}
+.item h4{
+ 
+  opacity: 0;
+}
+
+.item:hover h3 {
+  opacity: 1;
+} 
+.item:hover h4 {
+  opacity: 1;
+} 
+a:link{
+  color: aqua;
+}
+a:visited{
+  color: crimson;
+}
+
